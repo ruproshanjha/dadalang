@@ -1,4 +1,5 @@
-import React, { useState, useRef } from "react";
+import { useState } from "react";
+import { useRef } from "react";
 import StarfieldBackground from "./StarfieldBackground";
 import DadaLangEditor from "./DadaLangEditor";
 import { tokenize } from "../dadalang/lexer";

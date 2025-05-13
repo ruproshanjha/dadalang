@@ -1,5 +1,5 @@
-import React, { useRef, useEffect } from "react";
-
+import { useRef } from "react";
+import { useEffect } from "react";
 const COLORS = ["#CB2D6F", "#14A098", "#501F3A", "#CCCCCC"];
 const STAR_COUNT = 120;
 
