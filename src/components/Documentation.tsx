@@ -213,9 +213,9 @@ jachchhi dada`}
             This allows you to execute different code based on conditions.
           </p>
           <CodeBlock
-            code={`jodi dada x > 10 {
+            code={`jodi dada (x > 10) {
   bolo dada "Big!";
-} nahole jodi dada x > 5 {
+} nahole jodi dada (x > 5) {
   bolo dada "Medium!";
 } nahole dada {
   bolo dada "Small!";
@@ -237,7 +237,7 @@ jachchhi dada`}
             Repeats the block while a condition is true.
           </p>
           <CodeBlock
-            code={`jotokhon dada x < 5 {
+            code={`jotokhon dada (x < 5) {
   bolo dada x;
   x = x + 1;
 }`}
@@ -249,7 +249,7 @@ jachchhi dada`}
             Repeats the block a specific number of times.
           </p>
           <CodeBlock
-            code={`joto bar dada dada ei je i = 0; i < 5; i = i + 1; {
+            code={`joto bar dada (dada ei je i = 0; i < 5; i = i + 1;) {
   bolo dada i;
 }`}
           />
