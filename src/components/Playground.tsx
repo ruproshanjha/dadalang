@@ -178,7 +178,7 @@ export default function Playground() {
             href="https://www.linkedin.com/in/ruproshanjha/"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-bold text-[#14A098] no-underline"
+            className="font-bold text-[#CB2D6F] no-underline"
             style={{ textDecoration: "none" }}
           >
             @ruproshnjha
