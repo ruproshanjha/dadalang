@@ -86,8 +86,16 @@ export default function LandingPage() {
           style={{ fontFamily: "'Press Start 2P', monospace" }}
         >
           Made with <span className="text-[#CB2D6F]">♥</span> by{" "}
-          <span className="font-bold text-[#14A098]">@ruproshnjha</span> from
-          the city of joy.
+          <a
+            href="https://www.linkedin.com/in/ruproshanjha/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-[#14A098]"
+            style={{ textDecoration: "none" }}
+          >
+            @ruproshnjha
+          </a>{" "}
+          from the city of joy.
         </div>
       </footer>
     </div>

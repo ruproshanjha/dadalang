@@ -174,8 +174,16 @@ export default function Playground() {
           style={{ fontFamily: "'Fira Code', monospace" }}
         >
           Made with <span className="text-[#CB2D6F]">♥</span> by{" "}
-          <span className="font-bold text-[#14A098]">@ruproshnjha</span> from
-          the city of joy.
+          <a
+            href="https://www.linkedin.com/in/ruproshanjha/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-bold text-[#14A098] no-underline"
+            style={{ textDecoration: "none" }}
+          >
+            @ruproshnjha
+          </a>{" "}
+          from the city of joy.
         </div>
       </footer>
     </div>
